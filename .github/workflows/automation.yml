@@ -6,6 +6,8 @@ on:
       - master
   schedule:
     - cron: "0 3 * * *" # Runs at 03:00 AM (UTC) every day (Check https://crontab.guru/)
+  workflow_dispatch:
+  
 
 jobs:
   zotero-to-readwise-automation:
